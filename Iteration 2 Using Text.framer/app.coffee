@@ -7,6 +7,8 @@ Screen.backgroundColor = "#F5F5F5"
 sketch.Stop_Notif_Ini_Hover.visible = true
 sketch.Stop_Notif_Ini_Normal.opacity = 0
 sketch.Stop_Notif_Ini_Hover.opacity = 0
+sketch.Overlay.visible = true
+sketch.Overlay.z = -4
 
 sketch.$3.onMouseOver (event, layer) ->
 	document.body.style.cursor = "pointer"
@@ -58,7 +60,7 @@ sketch.Overlay.onMouseOver (event, layer) ->
 	document.body.style.cursor = "pointer"
 
 wrap_link.onClick (event, layer) ->
-# 	document.body.style.cursor = "pointer"
+	sketch.Overlay.z = 1
 	sketch.Overlay.visible = true
 	sketch.Overlay.animate
 		opacity: 1
