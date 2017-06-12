@@ -1,6 +1,5 @@
 # Import file "Notification"
 sketch = Framer.Importer.load("imported/Notification@1.5x", scale: 1)
-# Set Screen background
 Screen.backgroundColor = "#F5F5F5"
 document.body.style.cursor = "auto"
 sketch.Close.opacity = 0
@@ -18,14 +17,7 @@ sketch.$3.onMouseOver (event, layer) ->
 
 sketch.$3.onMouseOut (event, layer) ->
 	document.body.style.cursor = "auto"
-# 	sketch.Close.opacity = 0
-# 	closeCopy.opacity = 1
-# # 	sketch.Close.animate
-# # 		opacity: 0
-# # 		options:
-# # 			time: .1
-# # 			curve: Bezier.ease
-			
+				
 sketch.Text.onClick (event, layer) ->
 	Utils.delay .3, ->
 		sketch.Overlay.visible = false
