@@ -1,5 +1,4 @@
 app.coffee
-framer/backups/backup-2017-06-12 23.07.16.coffee
 framer/backups/backup-2017-06-12 23.08.16.coffee
 framer/backups/backup-2017-06-12 23.09.16.coffee
 framer/backups/backup-2017-06-12 23.10.16.coffee
@@ -21,10 +20,6 @@ framer/backups/backup-2017-06-12 23.25.16.coffee
 framer/backups/backup-2017-06-12 23.26.16.coffee
 framer/backups/backup-2017-06-12 23.27.16.coffee
 framer/backups/backup-2017-06-12 23.28.16.coffee
-framer/backups/backup-2017-06-12 23.29.16.coffee
-framer/backups/backup-2017-06-12 23.30.16.coffee
-framer/backups/backup-2017-06-12 23.31.16.coffee
-framer/backups/backup-2017-06-12 23.32.16.coffee
 framer/backups/backup-2017-06-12 23.33.16.coffee
 framer/backups/backup-2017-06-12 23.34.16.coffee
 framer/backups/backup-2017-06-12 23.36.16.coffee
@@ -39,6 +34,11 @@ framer/backups/backup-2017-06-13 15.19.49.coffee
 framer/backups/backup-2017-06-13 15.19.49.vekter
 framer/backups/backup-2017-06-13 17.15.17.coffee
 framer/backups/backup-2017-06-13 17.15.17.vekter
+framer/backups/backup-2017-06-13 17.17.17.coffee
+framer/backups/backup-2017-06-14 11.28.16.coffee
+framer/backups/backup-2017-06-14 16.40.49.coffee
+framer/backups/backup-2017-06-14 16.41.49.coffee
+framer/backups/backup-2017-06-14 16.42.49.coffee
 framer/coffee-script.js
 framer/config.json
 framer/design.vekter
@@ -94,6 +94,7 @@ imported/Notification@1.5x/images/Layer-Kategori-ruy1rtq1.png
 imported/Notification@1.5x/images/Layer-Layer_1-rjbgqjg0.png
 imported/Notification@1.5x/images/Layer-Logo-mzhbnknb.png
 imported/Notification@1.5x/images/Layer-Message-neveotq1.png
+imported/Notification@1.5x/images/Layer-Message-nzg3mkuy.png
 imported/Notification@1.5x/images/Layer-Navigation-mzcxqjg1.png
 imported/Notification@1.5x/images/Layer-Page_1-mkjgm0e2.png
 imported/Notification@1.5x/images/Layer-Page_1-ntqxnzld.png

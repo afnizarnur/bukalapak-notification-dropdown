@@ -27,9 +27,9 @@ window.__imported__["Notification@1.5x/layers.json.js"] = [
 				"originalName": "Dropdown",
 				"maskFrame": null,
 				"layerFrame": {
-					"x": 853,
+					"x": 855,
 					"y": 70,
-					"width": 418,
+					"width": 414,
 					"height": 538
 				},
 				"visible": true,
@@ -39,26 +39,53 @@ window.__imported__["Notification@1.5x/layers.json.js"] = [
 				"image": {
 					"path": "images/Layer-Dropdown-mjixmeq4.png",
 					"frame": {
-						"x": 853,
+						"x": 855,
 						"y": 70,
-						"width": 418,
+						"width": 414,
 						"height": 538
 					}
 				},
 				"children": [
 					{
-						"objectId": "4ED945B6-2B85-44E1-8596-152369A0A212",
+						"objectId": "7872E2A4-643A-4D85-B900-0B55EF204DF4",
 						"kind": "group",
 						"name": "Message",
 						"originalName": "Message",
 						"maskFrame": null,
 						"layerFrame": {
-							"x": 853,
+							"x": 856,
 							"y": 375,
-							"width": 418,
-							"height": 62
+							"width": 411,
+							"height": 56
 						},
 						"visible": true,
+						"metadata": {
+							"opacity": 1
+						},
+						"image": {
+							"path": "images/Layer-Message-nzg3mkuy.png",
+							"frame": {
+								"x": 856,
+								"y": 375,
+								"width": 411,
+								"height": 56
+							}
+						},
+						"children": []
+					},
+					{
+						"objectId": "4ED945B6-2B85-44E1-8596-152369A0A212",
+						"kind": "group",
+						"name": "Message1",
+						"originalName": "Message",
+						"maskFrame": null,
+						"layerFrame": {
+							"x": 853,
+							"y": 374,
+							"width": 418,
+							"height": 63
+						},
+						"visible": false,
 						"metadata": {
 							"opacity": 1
 						},
@@ -66,9 +93,9 @@ window.__imported__["Notification@1.5x/layers.json.js"] = [
 							"path": "images/Layer-Message-neveotq1.png",
 							"frame": {
 								"x": 853,
-								"y": 375,
+								"y": 374,
 								"width": 418,
-								"height": 62
+								"height": 63
 							}
 						},
 						"children": []
@@ -183,7 +210,7 @@ window.__imported__["Notification@1.5x/layers.json.js"] = [
 										"maskFrame": null,
 										"layerFrame": {
 											"x": 858,
-											"y": 517,
+											"y": 516,
 											"width": 408,
 											"height": 88
 										},
@@ -195,7 +222,7 @@ window.__imported__["Notification@1.5x/layers.json.js"] = [
 											"path": "images/Layer-$5-mjzgn0vb.png",
 											"frame": {
 												"x": 858,
-												"y": 517,
+												"y": 516,
 												"width": 408,
 												"height": 88
 											}
@@ -209,7 +236,7 @@ window.__imported__["Notification@1.5x/layers.json.js"] = [
 												"maskFrame": null,
 												"layerFrame": {
 													"x": 869,
-													"y": 583,
+													"y": 582,
 													"width": 18,
 													"height": 14
 												},
@@ -221,7 +248,7 @@ window.__imported__["Notification@1.5x/layers.json.js"] = [
 													"path": "images/Layer-ic_promo_copy-rdq4rtzc.png",
 													"frame": {
 														"x": 869,
-														"y": 583,
+														"y": 582,
 														"width": 18,
 														"height": 14
 													}
@@ -235,7 +262,7 @@ window.__imported__["Notification@1.5x/layers.json.js"] = [
 														"maskFrame": null,
 														"layerFrame": {
 															"x": 869,
-															"y": 583,
+															"y": 582,
 															"width": 18,
 															"height": 14
 														},
@@ -252,7 +279,7 @@ window.__imported__["Notification@1.5x/layers.json.js"] = [
 																"maskFrame": null,
 																"layerFrame": {
 																	"x": 869,
-																	"y": 582.6666666666666,
+																	"y": 581.6666666666666,
 																	"width": 18,
 																	"height": 14
 																},
@@ -264,7 +291,7 @@ window.__imported__["Notification@1.5x/layers.json.js"] = [
 																	"path": "images/Layer-Group_18-oti5nkje.png",
 																	"frame": {
 																		"x": 869,
-																		"y": 582.6666666666666,
+																		"y": 581.6666666666666,
 																		"width": 18,
 																		"height": 14
 																	}
@@ -285,7 +312,7 @@ window.__imported__["Notification@1.5x/layers.json.js"] = [
 										"maskFrame": null,
 										"layerFrame": {
 											"x": 858,
-											"y": 430,
+											"y": 429,
 											"width": 408,
 											"height": 87
 										},
@@ -297,7 +324,7 @@ window.__imported__["Notification@1.5x/layers.json.js"] = [
 											"path": "images/Layer-$4-rei0meq3.png",
 											"frame": {
 												"x": 858,
-												"y": 430,
+												"y": 429,
 												"width": 408,
 												"height": 87
 											}
@@ -311,7 +338,7 @@ window.__imported__["Notification@1.5x/layers.json.js"] = [
 												"maskFrame": null,
 												"layerFrame": {
 													"x": 871,
-													"y": 496,
+													"y": 495,
 													"width": 14,
 													"height": 14
 												},
@@ -323,7 +350,7 @@ window.__imported__["Notification@1.5x/layers.json.js"] = [
 													"path": "images/Layer-ic_newfeature-rdc5qtnf.png",
 													"frame": {
 														"x": 871,
-														"y": 496,
+														"y": 495,
 														"width": 14,
 														"height": 14
 													}
@@ -337,7 +364,7 @@ window.__imported__["Notification@1.5x/layers.json.js"] = [
 														"maskFrame": null,
 														"layerFrame": {
 															"x": 871,
-															"y": 496,
+															"y": 495,
 															"width": 14,
 															"height": 14
 														},
@@ -349,7 +376,7 @@ window.__imported__["Notification@1.5x/layers.json.js"] = [
 															"path": "images/Layer-Page_1-ntqxnzld.png",
 															"frame": {
 																"x": 871,
-																"y": 496,
+																"y": 495,
 																"width": 14,
 																"height": 14
 															}

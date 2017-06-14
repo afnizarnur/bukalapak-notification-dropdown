@@ -44,18 +44,20 @@ sketch.Stop_Notif_Ini_Normal.onMouseOver (event, layer) ->
 			curve: Bezier.ease
 
 sketch.Stop_Notif_Ini_Normal.onClick (event, layer) ->
+	sketch.Stop_Notif_Ini_Normal.visible = false
 	sketch.Message.visible = true
-	sketch.Message.opacity = 1
+	sketch.Message.y = 285
 	if sketch.Message.y != 305
+		sketch.Message.animate
+			opacity: 1
+			options:
+				time: .2
+				curve: Bezier.easeIn
 		sketch.Message.animate
 			y: sketch.Message.y + 20
 			options:
-				time: .1
-				curve: Bezier.ease
-	else 
-		sketch.Message.y = sketch.Message.y - 20
-	
-	sketch.Stop_Notif_Ini_Normal.visible = false
+				time: .2
+				curve: Bezier.easeIn
 
 	sketch.Message.onMouseOver (event, layer) ->
 		document.body.style.cursor = "pointer"
@@ -65,17 +67,20 @@ sketch.Stop_Notif_Ini_Normal.onClick (event, layer) ->
 		
 	sketch.Message.onClick (event, layer) ->
 		sketch.Stop_Notif_Ini_Normal.visible = true
-		sketch.Message.visible = false
-		sketch.Message.opacity = 0
-		sketch.Message.y = sketch.Message.y - 20
-		
-# 	sketch.Stop_Notif_Ini_Normal.opacity = 0
-# 	sketch.Stop_Notif_Ini_Default.opacity = 0
-	
-# sketch.Message.onClick (event, layer) ->
-# 	sketch.Message.y = sketch.Message.y - 20	
-# # 	sketch.$4.y = sketch.$4.y - 45
-# # 	sketch.$5.y = sketch.$5.y - 45
-# 
-
-
+		Utils.delay .2, ->
+			sketch.Message.visible = false
+		sketch.$2.animate
+			opacity: 0
+			options:
+				time: .2
+				curve: Bezier.easeOut
+		sketch.Message.animate
+			opacity: 0
+			options:
+				time: .2
+				curve: Bezier.easeOut
+		sketch.Message.animate
+			y: sketch.Message.y - 20
+			options:
+				time: .2
+				curve: Bezier.easeOut
