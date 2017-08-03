@@ -1,4 +1,6 @@
 # Import file "Notification"
+sketch = Framer.Importer.load("imported/Notification@1x", scale: 1)
+# Import file "Notification"
 sketch = Framer.Importer.load("imported/Notification@1.5x", scale: 1)
 
 document.body.style.cursor = "auto"

@@ -59,15 +59,15 @@ sketch.Stop_Notif_Ini_Normal.onClick (event, layer) ->
 				time: .2
 				curve: Bezier.easeIn
 		sketch.$4.animate
-			y: sketch.$4.y + 40
+			y: sketch.$4.y + 45
 			options:
 				time: .2
-				curve: Bezier.easeIn
+				curve: Bezier.easeOut
 		sketch.$5.animate
-			y: sketch.$5.y + 40
+			y: sketch.$5.y + 45
 			options:
 				time: .2
-				curve: Bezier.easeIn
+				curve: Bezier.easeOut
 
 	sketch.Message.onMouseOver (event, layer) ->
 		document.body.style.cursor = "pointer"
@@ -79,6 +79,7 @@ sketch.Stop_Notif_Ini_Normal.onClick (event, layer) ->
 		sketch.Stop_Notif_Ini_Normal.visible = true
 		Utils.delay .2, ->
 			sketch.Message.visible = false
+
 		sketch.Message.animate
 			opacity: 0
 			options:
@@ -89,14 +90,14 @@ sketch.Stop_Notif_Ini_Normal.onClick (event, layer) ->
 			options:
 				time: .2
 				curve: Bezier.easeOut
+				
 		sketch.$4.animate
-			y: sketch.$4.y - 40
+			y: sketch.$4.y - 45
 			options:
 				time: .2
-				curve: Bezier.easeIn
+				curve: Bezier.easeOut
 		sketch.$5.animate
-			y: sketch.$5.y - 40
+			y: sketch.$5.y - 45
 			options:
 				time: .2
-				curve: Bezier.easeIn
-		
+				curve: Bezier.easeOut

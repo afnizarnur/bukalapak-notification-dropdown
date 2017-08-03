@@ -1,4 +1,5 @@
-[
+window.__imported__ = window.__imported__ || {};
+window.__imported__["Notification@1x/layers.json.js"] = [
 	{
 		"objectId": "03CED8C2-E542-4D0D-886E-C839E3CC0422",
 		"kind": "artboard",
@@ -9,18 +10,18 @@
 			"x": -189,
 			"y": 63,
 			"width": 1440,
-			"height": 893
+			"height": 691
 		},
 		"visible": true,
 		"metadata": {},
 		"backgroundColor": "rgba(245, 245, 245, 1)",
 		"image": {
-			"path": "images/Layer-Notifikasi_Dropdown_with_unsubscribe_Iteration_2-mdndruq4.png",
+			"path": "images/Layer-Notifikasi_Dropdown_with_unsubscribe_Iteration_2-mdndruq4.jpg",
 			"frame": {
 				"x": -189,
 				"y": 63,
 				"width": 1440,
-				"height": 893
+				"height": 691
 			}
 		},
 		"children": [

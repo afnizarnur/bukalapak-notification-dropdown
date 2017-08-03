@@ -10,11 +10,20 @@ window.__imported__["Notification@1.5x/layers.json.js"] = [
 			"x": -189,
 			"y": 63,
 			"width": 1440,
-			"height": 691
+			"height": 893
 		},
 		"visible": true,
 		"metadata": {},
 		"backgroundColor": "rgba(245, 245, 245, 1)",
+		"image": {
+			"path": "images/Layer-Notifikasi_Dropdown_with_unsubscribe_Iteration_2-mdndruq4.png",
+			"frame": {
+				"x": -189,
+				"y": 63,
+				"width": 1440,
+				"height": 893
+			}
+		},
 		"children": [
 			{
 				"objectId": "2210D8D0-E93D-4C0A-98DA-300DEDAD3668",

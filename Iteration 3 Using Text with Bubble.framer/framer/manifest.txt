@@ -20,10 +20,6 @@ framer/backups/backup-2017-06-12 23.25.16.coffee
 framer/backups/backup-2017-06-12 23.26.16.coffee
 framer/backups/backup-2017-06-12 23.27.16.coffee
 framer/backups/backup-2017-06-12 23.28.16.coffee
-framer/backups/backup-2017-06-12 23.37.16.coffee
-framer/backups/backup-2017-06-12 23.39.16.coffee
-framer/backups/backup-2017-06-12 23.40.16.coffee
-framer/backups/backup-2017-06-12 23.41.16.coffee
 framer/backups/backup-2017-06-12 23.42.16.coffee
 framer/backups/backup-2017-06-12 23.49.19.coffee
 framer/backups/backup-2017-06-12 23.49.19.vekter
@@ -39,6 +35,10 @@ framer/backups/backup-2017-06-14 16.42.49.coffee
 framer/backups/backup-2017-06-14 17.10.07.coffee
 framer/backups/backup-2017-06-14 17.10.07.vekter
 framer/backups/backup-2017-06-15 12.24.06.coffee
+framer/backups/backup-2017-06-15 15.41.34.coffee
+framer/backups/backup-2017-06-15 15.41.34.vekter
+framer/backups/backup-2017-08-03 21.17.24.coffee
+framer/backups/backup-2017-08-03 21.17.24.vekter
 framer/coffee-script.js
 framer/config.json
 framer/design.vekter
@@ -107,5 +107,52 @@ imported/Notification@1.5x/images/Layer-Top_Container-odq2mdlg.png
 imported/Notification@1.5x/images/Layer-Top_Links-nzmxmeyx.png
 imported/Notification@1.5x/layers.json
 imported/Notification@1.5x/layers.json.js
+imported/Notification@1x/images/Layer-$1-odi1nzm3.png
+imported/Notification@1x/images/Layer-$2-neuxn0zg.png
+imported/Notification@1x/images/Layer-$3-mtjdrtyw.png
+imported/Notification@1x/images/Layer-$4-rei0meq3.png
+imported/Notification@1x/images/Layer-$5-mjzgn0vb.png
+imported/Notification@1x/images/Layer-Base-rdg2meix.png
+imported/Notification@1x/images/Layer-Button-mze4rjq1.png
+imported/Notification@1x/images/Layer-Cek_Transaksi-mda4odbf.png
+imported/Notification@1x/images/Layer-Dropdown-mjixmeq4.png
+imported/Notification@1x/images/Layer-Group-meiwrdjf.png
+imported/Notification@1x/images/Layer-Group-njq1nzbf.png
+imported/Notification@1x/images/Layer-Group-ntuwqta1.png
+imported/Notification@1x/images/Layer-Group-otc1ouq2.png
+imported/Notification@1x/images/Layer-Group-qtuzqtnd.png
+imported/Notification@1x/images/Layer-Group-rkzbrtjg.png
+imported/Notification@1x/images/Layer-Group-rtm1mem4.png
+imported/Notification@1x/images/Layer-Group-rtnfnjhb.png
+imported/Notification@1x/images/Layer-Group_11-qkvbqtbc.png
+imported/Notification@1x/images/Layer-Group_18-odzdmjm2.png
+imported/Notification@1x/images/Layer-Group_18-oti5nkje.png
+imported/Notification@1x/images/Layer-Group_2-mjbfnzqx.png
+imported/Notification@1x/images/Layer-Group_3-odm2rujf.png
+imported/Notification@1x/images/Layer-Group_50-qte3rkjc.png
+imported/Notification@1x/images/Layer-ic_informasi-memyrtmw.png
+imported/Notification@1x/images/Layer-ic_newfeature-rdc5qtnf.png
+imported/Notification@1x/images/Layer-ic_pembelian-qty5mtay.png
+imported/Notification@1x/images/Layer-ic_promo_copy-oeuxndq2.png
+imported/Notification@1x/images/Layer-ic_promo_copy-rdq4rtzc.png
+imported/Notification@1x/images/Layer-Kategori-mkm0rjle.png
+imported/Notification@1x/images/Layer-Kategori-ruy1rtq1.png
+imported/Notification@1x/images/Layer-Layer_1-rjbgqjg0.png
+imported/Notification@1x/images/Layer-Logo-mzhbnknb.png
+imported/Notification@1x/images/Layer-Message-neveotq1.png
+imported/Notification@1x/images/Layer-Message-nzg3mkuy.png
+imported/Notification@1x/images/Layer-Navigation-mzcxqjg1.png
+imported/Notification@1x/images/Layer-Notifikasi_Dropdown_with_unsubscribe_Iteration_2-mdndruq4.jpg
+imported/Notification@1x/images/Layer-Page_1-mkjgm0e2.png
+imported/Notification@1x/images/Layer-Page_1-ntqxnzld.png
+imported/Notification@1x/images/Layer-Page_1-qkezqtc0.png
+imported/Notification@1x/images/Layer-Search_Bar-ntg5mdrc.png
+imported/Notification@1x/images/Layer-Stop_Notif_Ini_Default-nzg2m0vf.png
+imported/Notification@1x/images/Layer-Stop_Notif_Ini_Normal-nzuyntm0.png
+imported/Notification@1x/images/Layer-Text-muixqurd.png
+imported/Notification@1x/images/Layer-Top_Container-odq2mdlg.png
+imported/Notification@1x/images/Layer-Top_Links-nzmxmeyx.png
+imported/Notification@1x/layers.json
+imported/Notification@1x/layers.json.js
 index.html
 modules/myModule.coffee

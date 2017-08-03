@@ -5,14 +5,15 @@
   "cachedDeviceHeight" : 0,
   "contentScale" : 1,
   "cachedDeviceWidth" : 0,
+  "deviceType" : "fullscreen",
   "sharedPrototype" : 0,
   "propertyPanelToggleStates" : {
     "Filters" : false
   },
-  "deviceType" : "fullscreen",
   "projectId" : "F6A5C357-AD04-48FA-BF81-8B8A0BD26775",
   "deviceOrientation" : 0,
   "selectedHand" : "",
+  "showBezel" : 0,
   "foldedCodeRanges" : [
 
   ],
