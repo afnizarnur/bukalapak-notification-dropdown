@@ -7,15 +7,6 @@ document.body.style.cursor = "auto"
 
 Screen.backgroundColor = "#F5F5F5"
 
-sketch.Dropdown.opacity = 0
-
-sketch.oval.onMouseOver (event, layer) ->
-	document.body.style.cursor = "pointer"
-
-sketch.oval.onMouseOut (event, layer) ->
-	document.body.style.cursor = "pointer"	
-	
-
 sketch.Stop_Notif_Ini_Normal.opacity = 0
 sketch.Stop_Notif_Ini_Default.visible = true
 sketch.Stop_Notif_Ini_Default.opacity = 0
