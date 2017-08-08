@@ -12,23 +12,14 @@ sketch.Dropdown.opacity = 0
 sketch.oval.onMouseOver (event, layer) ->
 	document.body.style.cursor = "pointer"
 	
-# overlay = new Layer
-# 	width: Screen.width
-# 	height: Screen.height
-# 	backgroundColor: "000"
-# 	opacity: .5
-# 	parent: sketch.Notifikasi_Dropdown_with_unsubscribe_Iteration_2
-# 	z: -200
-
-
 sketch.oval.onClick (event, layer) ->
-	if sketch.Dropdown.opacity is 1
-		sketch.Dropdown.opacity = 0
-	else sketch.Dropdown.opacity = 1
-	
-	
-		
-	
+	sketch.Dropdown.opacity = 1
+	overlay = new Layer
+		width: Screen.width
+		height: Screen.height
+		backgroundColor: "000"
+		opacity: .5
+	overlay.placeBefore()
 
 sketch.oval.onMouseOut (event, layer) ->
 	document.body.style.cursor = "auto"	

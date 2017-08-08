@@ -1,9 +1,21 @@
 # Import file "Notification"
+sketch = Framer.Importer.load("imported/Notification@1x", scale: 1)
+# Import file "Notification"
 sketch = Framer.Importer.load("imported/Notification@1.5x", scale: 1)
 
 document.body.style.cursor = "auto"
 
 Screen.backgroundColor = "#F5F5F5"
+
+sketch.Dropdown.opacity = 0
+
+sketch.oval.onMouseOver (event, layer) ->
+	document.body.style.cursor = "pointer"
+	
+sketch.oval.on
+
+sketch.oval.onMouseOut (event, layer) ->
+	document.body.style.cursor = "auto"	
 
 sketch.Stop_Notif_Ini_Normal.opacity = 0
 sketch.Stop_Notif_Ini_Default.visible = true
@@ -44,11 +56,30 @@ sketch.Stop_Notif_Ini_Normal.onMouseOver (event, layer) ->
 			curve: Bezier.ease
 
 sketch.Stop_Notif_Ini_Normal.onClick (event, layer) ->
-	sketch.Message.opacity = 1
-	while sketch.Message.y < 305
-		sketch.Message.y = sketch.Message.y + 20
-	
 	sketch.Stop_Notif_Ini_Normal.visible = false
+	sketch.Message.visible = true
+	sketch.Message.y = 285
+	if sketch.Message.y != 305
+		sketch.Message.animate
+			opacity: 1
+			options:
+				time: .2
+				curve: Bezier.easeIn
+		sketch.Message.animate
+			y: sketch.Message.y + 20
+			options:
+				time: .2
+				curve: Bezier.easeIn
+		sketch.$4.animate
+			y: sketch.$4.y + 45
+			options:
+				time: .2
+				curve: Bezier.easeOut
+		sketch.$5.animate
+			y: sketch.$5.y + 45
+			options:
+				time: .2
+				curve: Bezier.easeOut
 
 	sketch.Message.onMouseOver (event, layer) ->
 		document.body.style.cursor = "pointer"
@@ -58,17 +89,27 @@ sketch.Stop_Notif_Ini_Normal.onClick (event, layer) ->
 		
 	sketch.Message.onClick (event, layer) ->
 		sketch.Stop_Notif_Ini_Normal.visible = true
-		sketch.Stop_Notif_Ini_Default.visible = true
-		sketch.Message.opacity = 0
-		sketch.Message.y = sketch.Message.y - 20
-		
-# 	sketch.Stop_Notif_Ini_Normal.opacity = 0
-# 	sketch.Stop_Notif_Ini_Default.opacity = 0
-	
-# sketch.Message.onClick (event, layer) ->
-# 	sketch.Message.y = sketch.Message.y - 20	
-# # 	sketch.$4.y = sketch.$4.y - 45
-# # 	sketch.$5.y = sketch.$5.y - 45
-# 
+		Utils.delay .2, ->
+			sketch.Message.visible = false
 
-
+		sketch.Message.animate
+			opacity: 0
+			options:
+				time: .2
+				curve: Bezier.easeOut
+		sketch.Message.animate
+			y: sketch.Message.y - 20
+			options:
+				time: .2
+				curve: Bezier.easeOut
+				
+		sketch.$4.animate
+			y: sketch.$4.y - 45
+			options:
+				time: .2
+				curve: Bezier.easeOut
+		sketch.$5.animate
+			y: sketch.$5.y - 45
+			options:
+				time: .2
+				curve: Bezier.easeOut

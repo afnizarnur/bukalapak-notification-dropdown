@@ -22,11 +22,7 @@ sketch.oval.onMouseOver (event, layer) ->
 
 
 sketch.oval.onClick (event, layer) ->
-	if sketch.Dropdown.opacity is 1
-		sketch.Dropdown.opacity = 0
-	else sketch.Dropdown.opacity = 1
-	
-	
+	sketch.Dropdown.opacity = 1
 		
 	
 
