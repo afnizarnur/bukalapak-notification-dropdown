@@ -20,25 +20,15 @@ sketch.Lonceng.onMouseOut (event, layer) ->
 
 sketch.Lonceng.onClick (event, layer) ->
 	if sketch.Dropdown.opacity is 1
-		sketch.Overlay.animate
-			opacity: 0
-			options:
-				time: .2
-				curve: Bezier.easeInOut
 		sketch.Dropdown.animate
-			y: 20
+			y: 0
 			opacity: 0
 			options:
 				time: .2
 				curve: Bezier.easeInOut
 	else 
-		sketch.Overlay.animate
-			opacity: 1
-			options:
-				time: .2
-				curve: Bezier.easeInOut
 		sketch.Dropdown.animate
-			y: 70
+			scale: 1
 			opacity: 1
 			options:
 				time: .2

@@ -1,9 +1,24 @@
 # Import file "Notification"
+sketch = Framer.Importer.load("imported/Notification@1x", scale: 1)
+# Import file "Notification"
 sketch = Framer.Importer.load("imported/Notification@1.5x", scale: 1)
 
 document.body.style.cursor = "auto"
 
 Screen.backgroundColor = "#F5F5F5"
+
+sketch.Dropdown.opacity = 0
+
+sketch.Overlay.opacity = 0
+
+sketch.Lonceng.onMouseOver (event,)
+
+sketch.Lonceng.onClick (event, layer) ->
+	document.body.style.cursor = "pointer"
+	sketch.Dropdown.opacity = 1
+
+
+	
 
 sketch.Stop_Notif_Ini_Normal.opacity = 0
 sketch.Stop_Notif_Ini_Default.visible = true
@@ -12,8 +27,7 @@ sketch.Stop_Notif_Ini_Default.opacity = 0
 sketch.Message.y = sketch.Message.y - 20
 sketch.Message.opacity = 0
 
-sketch.$4.
-y = sketch.$4.y - 45
+sketch.$4.y = sketch.$4.y - 45
 sketch.$5.y = sketch.$5.y - 45
 
 sketch.$3.onMouseOver (event, layer) ->

@@ -1,9 +1,17 @@
 # Import file "Notification"
+sketch = Framer.Importer.load("imported/Notification@1x", scale: 1)
+# Import file "Notification"
 sketch = Framer.Importer.load("imported/Notification@1.5x", scale: 1)
 
 document.body.style.cursor = "auto"
 
 Screen.backgroundColor = "#F5F5F5"
+
+sketch.Dropdown.opacity = 0
+
+sketch.Overlay.opacity = 0
+
+sketch.Lonceng.onMouse
 
 sketch.Stop_Notif_Ini_Normal.opacity = 0
 sketch.Stop_Notif_Ini_Default.visible = true

@@ -8,7 +8,6 @@ document.body.style.cursor = "auto"
 Screen.backgroundColor = "#F5F5F5"
 
 sketch.Dropdown.opacity = 0
-sketch.Dropdown.y = 20
 
 sketch.Overlay.opacity = 0
 
@@ -20,28 +19,16 @@ sketch.Lonceng.onMouseOut (event, layer) ->
 
 sketch.Lonceng.onClick (event, layer) ->
 	if sketch.Dropdown.opacity is 1
-		sketch.Overlay.animate
-			opacity: 0
-			options:
-				time: .2
-				curve: Bezier.easeInOut
 		sketch.Dropdown.animate
-			y: 20
 			opacity: 0
 			options:
-				time: .2
+				time: .3
 				curve: Bezier.easeInOut
 	else 
-		sketch.Overlay.animate
-			opacity: 1
-			options:
-				time: .2
-				curve: Bezier.easeInOut
 		sketch.Dropdown.animate
-			y: 70
 			opacity: 1
 			options:
-				time: .2
+				time: .3
 				curve: Bezier.easeInOut
 
 	

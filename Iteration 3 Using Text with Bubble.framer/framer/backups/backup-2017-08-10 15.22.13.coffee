@@ -8,43 +8,30 @@ document.body.style.cursor = "auto"
 Screen.backgroundColor = "#F5F5F5"
 
 sketch.Dropdown.opacity = 0
-sketch.Dropdown.y = 20
 
-sketch.Overlay.opacity = 0
-
-sketch.Lonceng.onMouseOver (event, layer) -> 
+sketch.oval.onMouseOver (event, layer) ->
 	document.body.style.cursor = "pointer"
 	
-sketch.Lonceng.onMouseOut (event, layer) -> 
-	document.body.style.cursor = "auto"
+# overlay = new Layer
+# 	width: Screen.width
+# 	height: Screen.height
+# 	backgroundColor: "000"
+# 	opacity: .5
+# 	parent: sketch.Notifikasi_Dropdown_with_unsubscribe_Iteration_2
+# 	z: -200
 
-sketch.Lonceng.onClick (event, layer) ->
+
+sketch.oval.onClick (event, layer) ->
 	if sketch.Dropdown.opacity is 1
-		sketch.Overlay.animate
-			opacity: 0
-			options:
-				time: .2
-				curve: Bezier.easeInOut
-		sketch.Dropdown.animate
-			y: 20
-			opacity: 0
-			options:
-				time: .2
-				curve: Bezier.easeInOut
-	else 
-		sketch.Overlay.animate
-			opacity: 1
-			options:
-				time: .2
-				curve: Bezier.easeInOut
-		sketch.Dropdown.animate
-			y: 70
-			opacity: 1
-			options:
-				time: .2
-				curve: Bezier.easeInOut
-
+		sketch.Dropdown.opacity = 0
+	else sketch.Dropdown.opacity = 1
 	
+	
+		
+	
+
+sketch.oval.onMouseOut (event, layer) ->
+	document.body.style.cursor = "auto"	
 
 sketch.Stop_Notif_Ini_Normal.opacity = 0
 sketch.Stop_Notif_Ini_Default.visible = true
