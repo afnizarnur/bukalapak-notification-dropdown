@@ -2,8 +2,7 @@
 Prototype for notification dropdown with unsubscribe function
 
 ## Background
-Latar belakang masalah dalam mendesain fungsi unsubscribe ini adalah saat ini user kesulitan dalam mematikan notifikasi promo, sehingga dibutuhkan solusi untuk menyelesaikan permasalahan tersebut.
+The background of the problem in designing this unsubscribe function is the current user difficulty in turning off promo notification, so we need solution to solve the problem.
 
 ## Solution
-Solusinya berdasar PM dan atas diskusi bersama, kita memutuskan mencoba meletakkan fungsi unsubscribe di dalam dropdown notification. Solusi ini belum di test dengan user dan bersifat eksperimental.
-
+The solution is based on the PM and on the discussion together, we decided to try to put the unsubscribe function in the dropdown notification. This solution has not been tested with the user and is experimental.
